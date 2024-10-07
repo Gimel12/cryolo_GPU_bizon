@@ -75,6 +75,11 @@ docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v /home/bizon:/home/bizon --gpus all -it gimel12/cryolo:latest
 ```
 
+## Video Tutorial
+
+Watch the full video tutorial on how to use the crYOLO & napari Docker container:
+
+[![Watch the video](https://img.youtube.com/vi/3f8480b917764426a529ebd281750d30/0.jpg)](https://www.loom.com/share/3f8480b917764426a529ebd281750d30?sid=d5206999-fe40-4020-97b2-14482328ced0)
 
 
 ## Troubleshooting
