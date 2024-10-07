@@ -77,9 +77,8 @@ docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
 
 ## Video Tutorial
 
-Watch the full video tutorial on how to use the crYOLO & napari Docker container:
+[![Watch the video](https://via.placeholder.com/600x400.png?text=Click+to+Watch+the+Video)](https://www.loom.com/share/3f8480b917764426a529ebd281750d30?sid=d5206999-fe40-4020-97b2-14482328ced0)
 
-[![Watch the video](https://img.youtube.com/vi/3f8480b917764426a529ebd281750d30/0.jpg)](https://www.loom.com/share/3f8480b917764426a529ebd281750d30?sid=d5206999-fe40-4020-97b2-14482328ced0)
 
 
 ## Troubleshooting
