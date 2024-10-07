@@ -75,9 +75,11 @@ docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v /home/bizon:/home/bizon --gpus all -it gimel12/cryolo:latest
 ```
 
+
 ## Video Tutorial
 
-[![Watch the video](https://via.placeholder.com/600x400.png?text=Click+to+Watch+the+Video)](https://www.loom.com/share/3f8480b917764426a529ebd281750d30?sid=d5206999-fe40-4020-97b2-14482328ced0)
+[![Watch the video](./pic.png)](https://www.loom.com/share/3f8480b917764426a529ebd281750d30?sid=d5206999-fe40-4020-97b2-14482328ced0)
+
 
 
 
