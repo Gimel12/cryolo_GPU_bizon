@@ -67,6 +67,16 @@ You should now see the napari graphical interface open, and you can use it to vi
 crYOLO CLI is ideal for users who are comfortable with the command line and prefer to automate processes or work with large datasets.
 napari GUI is perfect for users who prefer a visual, interactive environment for their data analysis and particle picking.
 
+## Adding folders from your machine inside the container
+
+We map our home folder to be shown inside the container so we can easily access our data.
+```
+docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v /home/bizon:/home/bizon --gpus all -it gimel12/cryolo:latest
+```
+
+
+
 ## Troubleshooting
 Check GUI apps can be displayed inside the container:
 
